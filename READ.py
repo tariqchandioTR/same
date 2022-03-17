@@ -1,4 +1,4 @@
-# same/user/bin/python2
+#same/user/bin/python2
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
@@ -19,7 +19,7 @@ except ImportError:
     
 try:
     import mechanize
-except ImportError:
+except ImportError:import
     os.system('pip2 install request')
     time.sleep(1)
     os.system('Then type: python2 boss')
@@ -69,7 +69,7 @@ def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;91m"+o),;sys.stdout.flush();time.sleep(1)
-
+print ("https://github.com/tariqchandioTR")
 
 back = 0
 oks = []
