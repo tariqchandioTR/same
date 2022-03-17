@@ -35,7 +35,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/11.16')]
 br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
@@ -92,8 +92,8 @@ print  """
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;92m➣ \033[1;92mDEVOLPER   :            (F)
 \033[1;91m➣ \033[1;92mFACEBOOK   :            (F)
-\033[1;93m➣ \033[1;92mWHATSAPP   :            no namber 
-\033[1;96m➣ \033[1;92mGITHUB     :             new user
+\033[1;93m➣ \033[1;92mWHATSAPP   :           03458893258 
+\033[1;96m➣ \033[1;92mGITHUB     :           https://github.com/tariqchandioTR 
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;92m➣ \033[1;96mCloning Ids Open 7 days..
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••             
@@ -113,7 +113,7 @@ logo1 = """
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91m➣ DEVOLPER     :        (F)
 \033[1;92m➣ FACEBOOK     :        (F)
-\033[1;97m➣ GITHUB       :        ✓new user
+\033[1;97m➣ GITHUB       :       https://github.com/tariqchandioTR
 \033[1;93m➣ WHATAAPP     :        no Namber
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91m➣ \033[1;96mYOU CAN COPY ME ..
@@ -126,7 +126,7 @@ logo2 = """
 \033[1;94m  ╚██╔╝  ██║   ██║██║╚██╗██║██║   ██║╚════██║
 \033[1;96m   
 \033[1;97m   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
-\033[1;92m➣      LEGEND OF DG KHAN (Dera Ghazi Khan) 
+\033[1;92m➣      LEGEND OF Tariq Chandio (Karachi sindh) 
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••   
 \033[1;96m➣ \033[1;93mHard work MAKES ME FAMOUS ...
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••    
@@ -149,7 +149,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;92m➣ \x1b[1;93mTOOL PASSWORD \x1b[1;97m»» \x1b[1;97m ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:THE YUNUS
+            print "Logged in successfully as " + username #Tariq"Aziz
 	    time.sleep(2)
             loop = 'false'
         else:
